@@ -14,4 +14,10 @@
     * MySQL là một hệ quản trị cơ sở dữ liệu mã nguồn mở hoạt động theo mô hình client-server, MySQL tạo ra bảng để lưu trữ dữ liệu, định nghĩa sự liên quan giữa các bảng đó, client sẽ gửi yêu cầu SQL bằng một lệnh đặt biệt trên MySQL, ứng dụng trên server sẽ phản hồi thông tin và trả về kết quả trên máy client.
 * **Về Java Spring Boot:**
   * Spring Boot là một dự án phát triển bởi JAVA trong hệ sinh thái Spring framework. Nó giúp cho các lập trình viên chúng ta đơn giản hóa quá trình lập trình một ứng dụng với Spring, chỉ tập trung vào việc phát triển business cho ứng dụng.
-  * Các bước 
+  * Để có thể khởi tạo một dự án Spring Boot, ta cần cài đặt Spring Boot CLI.
+  * Các ưu điểm của Spring Boot:
+    * Hội tụ đầy đủ các tính năng của Spring framework.
+    * Đơn giản hóa cấu hình và xây dựng được các ứng dụng độc lập có khả năng chạy bằng java-jar nhờ các dependency starter. 
+    * Dễ dàng deploy vì các ứng dụng server được nhúng trực tiếp vào ứng dụng để tránh những khó khăn khi triển khai lên môi trường production mà không cần thiết phải tải file WAR.
+    * Cấu hình ít, tự động được hỗ trợ bất cứ khi nào cho chức năng spring như tăng năng suất, giảm thời gian viết code và không yêu cầu XML config.
+    * Cung cấp nhiều plugin, số liệu, cấu hình ứng dụng từ bên ngoài.
