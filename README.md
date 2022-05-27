@@ -6,6 +6,7 @@
 * Java Spring Boot
   1. [Khóa học Java Spring Boot 2021 trong 2 giờ (Youtube)](https://youtu.be/UMePnyjr6FM)
   2. [Giới thiệu về Spring Boot. Spring Boot là gì?](https://topdev.vn/blog/gioi-thieu-ve-spring-boot-spring-boot-la-gi/#:~:text=Spring%20Boot%20l%C3%A0%20m%E1%BB%99t%20d%E1%BB%B1,tri%E1%BB%83n%20business%20cho%20%E1%BB%A9ng%20d%E1%BB%A5ng.)
+  3. [Spring Boot là gì? Ưu điểm và các đặc tính cơ bản của Spring Boot](https://bizfly.vn/techblog/spring-boot-la-gi.html)
 
 ## Những nội dung đã tìm hiểu
 * **Về kiến trúc Microservice:**
@@ -21,3 +22,8 @@
     * Dễ dàng deploy vì các ứng dụng server được nhúng trực tiếp vào ứng dụng để tránh những khó khăn khi triển khai lên môi trường production mà không cần thiết phải tải file WAR.
     * Cấu hình ít, tự động được hỗ trợ bất cứ khi nào cho chức năng spring như tăng năng suất, giảm thời gian viết code và không yêu cầu XML config.
     * Cung cấp nhiều plugin, số liệu, cấu hình ứng dụng từ bên ngoài.
+  * Các đặc tính cơ bản của Spring Boot:
+    * SpringApplication: SpringApplication là một class giúp khởi chạy các ứng dụng từ hàm main thuận tiện. Để bắt đầu ứng dụng, bạn chỉ cần gọi các method run.
+    * Profiles: Spring Boot Profiles sẽ cung cấp một cách phân chia các cấu hình cho từng môi trường. Các annotation là @Component hoặc @Configuration có thể sẽ được đánh dấu profiles để giới hạn thời điểm hoặc môi trường sẽ được tải lên.
+    * Externalized Configuration: Externalized Configuration cho phép bạn có khả năng cấu hình được từ bên ngoài. Vì vậy, một ứng dụng được xây dựng có thể được vận hành và hoạt động trên nhiều môi trường khác nhau. Để thực hiện Externalized Configuration bạn có thể sử dụng các file properties, YAML, các tham số command line hay các biến môi trường.
+    * Logging: Tất cả các chức năng log nội bộ đều được spring boot sử dụng common logging. Chúng được quản lý một cách mặc định. Vì vậy, bạn không nên hoặc không cần sửa các dependency logging nếu các tuỳ biến customization không được yêu cầu.
